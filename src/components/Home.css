@@ -1,0 +1,91 @@
+
+
+.home {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.pick {
+    width: 307px;
+    height: 154px;
+    margin: auto;
+    border-radius: 7px;
+    background-color: var(--dark-bg-color);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.pick h3 {
+    padding-top: 16px;
+    margin-top: 0;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.pick .player-options {
+    box-sizing: border-box;
+    margin: 16px auto;
+    width: 95%;
+    height: 48px;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    display: flex;
+    padding: 22.4px;
+}
+
+.pick .player-options div {
+    flex: 1 1;
+    height: 94.4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pick .player-options div svg {
+    padding-top: 1.6px;
+}
+
+.pick .selected {
+    background-color: var(--grey);
+}
+
+.new-game {
+    margin-top: 16px;
+}
+
+.new-game button {
+    margin: 8px auto;
+    border-radius: 5px;
+    width: 307px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    color: var(--bg-color);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.new-game button:nth-of-type(1) {
+    background-color: var(--yellow);
+}
+
+.new-game button:nth-of-type(2) {
+    background-color: var(--aqua);
+}
+
+.invite button {
+    margin-top: 48px;
+    border: none;
+    width: 224px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: var(--yellow);
+    color: var(--bg-color);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+}

@@ -1,0 +1,47 @@
+/* External Stylesheet: styles.css */
+
+.game-box {
+    width: 416px; /* 26rem * 16px/rem */
+    height: 720px; /* 45rem * 16px/rem */
+    background-color: var(--bg-color);
+    border-radius: 43px; /* 2.6875rem * 16px/rem */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+.game-box .logo {
+    position: absolute;
+    top: 139.2px; /* 8.7rem * 16px/rem */
+}
+
+@keyframes slide-text {
+    0% {
+        left: 176px; /* 11rem * 16px/rem */
+    }
+
+    100% {
+        left: 56px; /* 3.5rem * 16px/rem */
+    }
+}
+
+.game-box .game-over-box {
+    background-color: rgba(0, 0, 0, 0.73);
+    position: absolute;
+    z-index: 5;
+}
+
+@media screen and (max-width: 500px) {
+    @keyframes slide-text {
+        0% {
+            left: 160px; /* 10rem * 16px/rem */
+        }
+
+        100% {
+            left: 56px; /* 3.5rem * 16px/rem */
+        }
+    }
+}

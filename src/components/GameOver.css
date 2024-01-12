@@ -1,0 +1,60 @@
+.game-over {
+    width: 416px;
+    background-color: var(--bg-color);
+    text-align: center;
+    padding: 24px 0;
+    position: relative;
+}
+
+.game-over .game-result {
+    color: #ACC2CD;
+    font-size: 15px; /* 0.9375rem * 16px/rem */
+    font-weight: 700;
+}
+
+.game-over h1 {
+    color: var(--yellow);
+    text-align: center;
+    font-size: 28px; /* 1.75rem * 16px/rem */
+    font-weight: 800;
+    margin-bottom: 24px; /* 1.5rem * 16px/rem */
+}
+
+.game-over h1 svg {
+    position: relative;
+    top: 7px;
+    margin-right: 10px;
+}
+
+.game-over .game-over-buttons {
+    width: 80%;
+    margin: 16px auto; /* 1rem * 16px/rem */
+    display: flex;
+    justify-content: space-around;
+}
+
+.game-over .game-over-buttons button {
+    width: 113.25px; /* 7.0625rem * 16px/rem */
+    height: 33px; /* 2.0625rem * 16px/rem */
+    border-radius: 10px; /* 0.625rem * 16px/rem */
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.game-over .game-over-buttons .quit {
+    background-color: var(--yellow);
+}
+
+.game-over .game-over-buttons .play-again {
+    background-color: var(--aqua);
+}
+
+.game-over .close-popup {
+    position: absolute;
+    top: -8px; /* -0.5rem * 16px/rem */
+    right: 8px; /* 0.5rem * 16px/rem */
+    color: var(--light-grey);
+    font-size: 40px; /* 2.5rem * 16px/rem */
+    cursor: pointer;
+}
